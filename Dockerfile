@@ -12,7 +12,7 @@ RUN CGO_ENABLED=1 CC=aarch64-linux-gnu-gcc GOOS=linux GOARCH=arm64 go build -o h
 FROM multiarch/ubuntu-core:arm64-bionic
 
 LABEL org.opencontainers.image.authors="richard@holzeis.me"
-LABEL org.opencontainers.image.source="https://github.com/holzeis/hello-app"
+LABEL org.opencontainers.image.source="https://github.com/holzeis/hello-k8-app"
 
 WORKDIR /root/
 
