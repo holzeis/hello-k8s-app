@@ -1,6 +1,9 @@
 apiVersion: v2
 name: hello-k8s-app
 description: A Helm chart for Kubernetes
+maintainers:
+  - email: richard@holzeis.me
+    name: Richard Holzeis
 
 # A chart can be either an 'application' or a 'library' chart.
 #
