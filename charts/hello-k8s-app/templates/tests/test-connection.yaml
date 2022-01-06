@@ -11,5 +11,5 @@ spec:
     - name: wget
       image: busybox
       command: ['wget']
-      args: ['{{ include "hello-k8s-app.fullname" . }}:{{ .Values.service.port }}']
+      args: ['{{ include "hello-k8s-app.fullname" . }}:8080']
   restartPolicy: Never
