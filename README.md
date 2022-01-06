@@ -8,4 +8,4 @@ helm repo add hello-k8-app https://holzeis.github.io/hello-k8-app
 helm install hello-k8-app hello-k8-app/hello-k8-app -f values.yaml # create your own values.yaml
 ```
 
-See [Helm Chart](charts/hello-k8s-app/values.yaml) for values.yaml configurations.
+See [values.yaml](charts/hello-k8s-app/values.yaml) for helm chart configurations.
